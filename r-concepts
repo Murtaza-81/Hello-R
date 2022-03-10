@@ -1,0 +1,37 @@
+> ### Vectors ###
+
+> my_full_name <- c("Syed", "Muhammad", "Murtaza", "Shah")
+> # Number can aslo be used in vectors. Vector myust have all elements of sam data type 
+> Num <- 21:30
+> 
+> # We can also mention boolean values to vector as elements
+> bool_val <- c(TRUE, TRUE, FALSE, TRUE)
+> 
+> # Vector Length... Vector can be found with length() function.
+> vector <- c(20-40)
+> vector <- 20:40
+> length(vector)
+
+> #Vector can aslo be sorted in ascending or descending orders. 
+> vec <- c(10,12,15,3,15,4,11,9,7,1)
+> sort(vec)
+ 
+> # vector can also be accessed with its by refering its index value, unlike other programming languages, index starts from 1 in R language. 
+> vec[4]
+
+
+> # multiple index values can also be accessed.
+> vec[c(1,3,5)]
+
+> # value of any element can also be changed in same way i.e. through index of vector
+
+> vec[5] <- 100
+> vec
+
+> #whole vector or specific element of vector can also be repeated through rep() function.
+ 
+> rep(vec, times=2)
+ 
+> rep(vec, each=2)
+ 
+> # any element can be reapted for any times...mentioned in "times=??"
